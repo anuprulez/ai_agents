@@ -8,7 +8,7 @@ from crewai.project import CrewBase, agent, crew, task # type: ignore
 from crewai import LLM
 
 llm = LLM(
-    model="ollama/mistral",
+    model="ollama/deepseek-r1",
     api_key="ollama",  # Placeholder to bypass OpenAI key requirement
     temperature=0.7
 )
