@@ -9,7 +9,6 @@ from crewai import LLM
 
 llm = LLM(
     model="ollama/mistral",
-    base_url="http://localhost:11434",
     api_key="ollama",  # Placeholder to bypass OpenAI key requirement
     temperature=0.7
 )
